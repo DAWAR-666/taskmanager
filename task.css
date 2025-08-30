@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 61);
+    color: rgb(255, 0, 230);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height:50vh ;
+}
+h1{
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.txtbx{
+    
+    display: inline-flex;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
