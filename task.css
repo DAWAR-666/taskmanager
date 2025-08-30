@@ -6,19 +6,43 @@ body{
     color: rgb(255, 0, 230);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     min-height:50vh ;
+    
 }
 h1{
     font-size: 50px;
     border-bottom: 2px solid white;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
+    width: 100%;
 }
 .txtbx{
-    
+    width: 100%;
     display: inline-flex;
+    gap: 10px;
     border: 2px solid white;
     padding: 10px;
-    border-radius: 25px;
-    justify-content: center;
+    border-radius: 45px;
     align-items: center;
+}
+
+.txt1{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    border-color: #ff00ee;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.btn{
+    height: 45px;
+    padding: 12 px;
+    background-color: #ff00ee; 
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.btn:hover{
+    background-color: #8d1b85;
 }
